@@ -11,7 +11,7 @@ h2{
     background-color: black;
     color: white;
  }  */
-.header{
+/* .header{
     background-color: black;
     color: white;
 }
@@ -43,4 +43,35 @@ hr{
 }
 .education-table td:last-child {
   text-align: right;
-}
+} */
+ /* .box1{
+  background-color: red;
+  /* width: 100px;
+  height: 100px;
+} 
+  */
+  .card-1{
+    background-color: pink;
+    width: 200px;
+    display: inline-block;
+
+  }
+   .card-2{
+    background-color: pink;
+    width: 200px;
+    display: inline-block;
+
+  }
+
+   .card-3{
+    background-color: pink;
+    width: 200px;
+    display: inline-block
+
+  }
+  .img{
+    
+    width:100%;
+    /* height:; */
+  }
+ 
