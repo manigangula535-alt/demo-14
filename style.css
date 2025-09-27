@@ -1,77 +1,66 @@
- /* h1{
-    background-color: black;
+.card1{
+    height: 500px;
+    width: 400px;
+}
+img{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 380px;
+    height:200px; 
+border-radius: 20px;
+
+}
+.card-text{
+    border-radius: 20px;
+    background-color: rgb(52, 49, 49);
     color: white;
-} 
-h2{
-    background-color: black;
-    color: white;
+    height: 325px;
+    width: 400px;
+   margin-top: -55px;
+   position: relative;
+   z-index: 1;
 
-}  
- h5{
-    background-color: black;
-    color: white;
- }  */
-/* .header{
-    background-color: black;
-    color: white;
-}
 
-.text-center{
-    text-align: center;
-}
-.bg-grey{
-    background-color: gray;
-}
-hr{
-    height: 5px;
-    background-color: black;
-}
-.education-table{
-    width: 100%;
-  border-collapse: collapse; 
-  
-}
 
-.education-table th,
-.education-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
 }
-.education-table th {
-  background-color: #f2f2f2;
+.Cards{
+    background-color: rgb(238, 158, 9);
+    height: 500x;
+    width:400px;
+    border-radius: 20px;
 }
-.education-table td:last-child {
-  text-align: right;
-} */
- /* .box1{
-  background-color: red;
-  /* width: 100px;
-  height: 100px;
-} 
-  */
-  .card-1{
-    background-color: pink;
-    width: 200px;
-    display: inline-block;
-
-  }
-   .card-2{
-    background-color: pink;
-    width: 200px;
-    display: inline-block;
-
-  }
-
-   .card-3{
-    background-color: pink;
-    width: 200px;
-    display: inline-block
-
-  }
-  .img{
+h1{
+    padding-top: 30px;
+}
+p{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+button{
+    height: 50px;
+    width:75px;
+    /* background-color: orange; */
+}
+body{
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+@media screen and (max-width:500px) {
+    body{
+        flex-direction: column;
+        align-items: center;
+    }
     
-    width:100%;
-    /* height:; */
-  }
- 
+}
+@media (min-width:1000px) {
+     Cards{
+         flex-direction: column;
+        align-items: center;
+    
+     }
+}
